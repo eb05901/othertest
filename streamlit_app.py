@@ -1,5 +1,10 @@
 import streamlit as st
+from langchain import OpenAI
+import os
 
-st.title('🎈 App Name')
+#App title
+st.set_page_config(page_title="test chatbot")
 
-st.write('Hello world!')
+#Credentials
+with st.sidebar:
+  st.title('test chatbot')
